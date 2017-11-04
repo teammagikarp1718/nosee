@@ -25,4 +25,15 @@ public class PlayerController : MonoBehaviour {
 			rb2d.velocity = maxSpeed * rb2d.velocity.normalized;
 		}
 	}
+		
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.gameObject.CompareTag ("Pickup")) {
+			other.gameObject.SetActive (false);
+		}
+
+		if (other.gameObject.CompareTag ("Enemy")) {
+			gameObject.SetActive (false);
+		}
+	}
+
 }

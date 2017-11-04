@@ -148,8 +148,6 @@
      <Compile Include="Assets\Plugins\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
      <Compile Include="Assets\Plugins\AstarPathfindingProject\Utilities\RetainedGizmos.cs" />
      <Compile Include="Assets\Plugins\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
-     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.cginc" />
-     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\Plugins\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />
      <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
      <None Include="Assets\Plugins\AstarPathfindingProject\Plugins\dependencies.txt" />
@@ -157,7 +155,6 @@
      <None Include="Assets\Plugins\AstarPathfindingProject\Readme_upgrading.txt" />
      <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
      <None Include="Assets\Plugins\AstarPathfindingProject\Readme.txt" />
-     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\NavmeshOutline.shader" />
      <None Include="Assets\Plugins\AstarPathfindingProject\link.xml" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/hughmccauley/Documents/Unity/Detective Nosee 2/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
